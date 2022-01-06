@@ -4,31 +4,45 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200;1,300;1,900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="style.css" />
 		<title>Mohasin's portfolio</title>
 	</head>
 	<body>
-		<header>
+		<header class="main-header section">
 			<div class="hero">
+				<span class="line"></span>
 				<div class="target-22">
-					<h1>Stay focus on</h1>
-					<h1>Mission 2022</h1>
+					<h1>
+						Stay focus on <br />
+						<span class="font-color">Mission 2022</span>
+					</h1>
 				</div>
-				<p>
+				<p class="info-text">
 					In 2022 this is my fist role to be front end web developer,it is not
-					only my dream but also my passion
+					only my dream but also my passion. I love my work ,I try to my best
+					for every tusk keep serious , I love coding and reading book
 				</p>
-				<button class="explore-btn btn">Explore now</button>
+				<a href="#" class="explore-btn btn">Explore now</a>
 				<p>keep scrolling</p>
 			</div>
 			<div class="hero-image">
 				<img src="./images/person/person-5.png" alt="" />
 			</div>
 		</header>
-		<h1>My Mission in 2022</h1>
-		<section class="section">
+		<!-- mission and goal section started -->
+		<h1 class="text-center">
+			My Mission in <span class="font-color">2022</span>
+		</h1>
+		<section class="section mission-main-section">
 			<!-- mission section -->
-			<div class="mission-section">
+			<div class="mission-section section-common">
 				<div class="mission-image">
 					<img src="./images/illustrators/illustrator-1.png" alt="" />
 				</div>
@@ -39,16 +53,111 @@
 				</p>
 			</div>
 			<!-- vision section -->
-			<div class="mission-section">
-				<div class="mission-image">
-					<img src="./images/illustrators/illustrator-1.png" alt="" />
+			<div class="vision-section section-common">
+				<div class="vision-image">
+					<img src="./images/illustrators/illustrator-2.png" alt="" />
 				</div>
-				<h2 class="mission-header">Mission</h2>
+				<h2 class="vision-header">Vision</h2>
 				<p>
-					My mission in 2022 complete my course,stay focus ,grow up hard working
-					mindset. end of the day be human being and helpful others
+					My vision is to be an honest, empathetic and impactful project
+					contributor and to be recognized. I am committed to growing as a
+					leader and delivering value-added projects to the end users. My
+					mission is to create and part of a dream team where everyone is
+					playing to their strengths.
+				</p>
+			</div>
+			<!-- goals section -->
+
+			<div class="goal-section section-common">
+				<div class="goal-image">
+					<img src="./images/illustrators/illustrator-3.png" alt="" />
+				</div>
+				<h2 class="goal-header">Goals</h2>
+				<p>
+					Be master of front end engineering and I want be master in javascript
+					echo system, want to exploring NodeJs,ReactJs,expressJs,NextJs and
+					explore database like mongoDB. Nitty-gritty I want to be complete
+					package
 				</p>
 			</div>
 		</section>
+		<!-- mission and goal section end -->
+
+		<!-- developer section start -->
+
+		<section class="developer section">
+			<div class="developer-image">
+				<img src="./images/pictures/coding.png" alt="" />
+			</div>
+			<div class="developer-info">
+				<h1 class="heading">
+					Develop <br />
+					without Limits
+				</h1>
+				<p class="developer-test-info">
+					In this modern era there are several types of developer you will find
+					,some people are good but most the people are culprit, we are highly
+					guaranteed your requirement,I fist and for most duty to satisfaction
+					of my client
+				</p>
+				<a href="#" class="document-btn btn">Read the Documentation</a>
+			</div>
+			<div class="bg-image">
+				<img src="./images/shapes/shape-1.png" alt="" />
+			</div>
+		</section>
+		<!-- developer section end -->
+
+		<!-- community section start -->
+
+		<section class="community section">
+			<div class="community-body">
+				<h1 class="heading">
+					Know our <br />
+					Global Community
+				</h1>
+				<p class="community-info">
+					We have world largest community support,if you built a project but
+					have no idea how to manage the project . the solution is our community
+					24 &times;7 our community support, we have a lot more client like
+					Canada, USA,Singapore,Thailand are major country where our keep
+					supporting
+				</p>
+				<a href="#" class="document-btn btn">Read the Documentation</a>
+			</div>
+			<div class="community-image">
+				<img src="./images/pictures/project.png" alt="" />
+			</div>
+			<div class="bg-image-community">
+				<img src="./images/shapes/shape-1.png" alt="" />
+			</div>
+		</section>
+		<!-- community section end -->
+		<!-- my latest projects section -->
+
+		<section class="projects-overview section">
+			<h1 class="heading">Which project I completed</h1>
+			<div class="projects">
+				<div class="image">
+					<img src="./images/projects-1.jpeg" alt="" />
+				</div>
+				<div class="image">
+					<img src="./images/projects-2.jpeg" alt="" />
+				</div>
+				<div class="image">
+					<img src="./images/projects-3.jpeg" alt="" />
+				</div>
+				<div class="image">
+					<img src="./images/projects-4.jpeg" alt="" />
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer-section">
+			<h1 class="footer-heading">
+				Mission <span class="footer-text-color">2022</span>
+			</h1>
+			<p>Hard work, Perseverance, and Determination for 2022</p>
+		</footer>
 	</body>
 </html>
